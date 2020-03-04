@@ -16,21 +16,18 @@ print(pyautogui.position())
 # pyautogui.moveTo(708,118,2)   #2초간 이동
 # pyautogui.click(clicks=2, interval =2) #클릭 2번 / 더블클릭 pyautogui.click(clicks=2)
 
-pyautogui.moveTo(241,1350,1)
-pyautogui.doubleClick()
-time.sleep(1)
 
-pyautogui.typewrite(['enter'])
-pyautogui.typewrite("hello ")
-pyautogui.typewrite(['enter'])
-
-
+while True:
+    pyautogui.moveTo(341,834,1)
+    pyautogui.doubleClick()
+    time.sleep(1)
+    pyautogui.moveTo(1700,834,2)
+    pyautogui.doubleClick()
 
 
-
+#pyinstaller -w -F grid_layout.py
 
 
 
 
 
-print("hello2")
